@@ -1,3 +1,10 @@
+general:
+  build_dir: .
+
 machine:
   timezone: Asia/Tokyo
 
+test:
+  override:
+    - bash build.sh
+ 
