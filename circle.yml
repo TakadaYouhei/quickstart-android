@@ -6,7 +6,7 @@ machine:
 
 dependencies:
     override:
-        - echo y | android update sdk --no-ui --filter "platform-tools,build-tools-23.0.1" 
+        - echo y | android update sdk --no-ui --filter "platform-tools,build-tools-23.0.3" 
 
 test:
   override:
