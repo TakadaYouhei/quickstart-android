@@ -4,7 +4,8 @@
 set -e
 
 # List of all samples
-samples=( admob analytics app-indexing auth config crash database dynamiclinks invites messaging storage )
+#samples=( admob analytics app-indexing auth config crash database dynamiclinks invites messaging storage )
+samples=( admob )
 
 for sample in "${samples[@]}"
 do
